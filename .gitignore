@@ -14,7 +14,6 @@ x64/
 x86/
 build/
 out/
-base/
 
 # Intermediate and linker files
 *.obj
@@ -27,8 +26,6 @@ base/
 *.idb
 *.tlog
 *.lastbuildstate
-*.vcxproj
-*.filters
 
 # Visual Studio DBs / caches
 *.VC.db
@@ -70,3 +67,9 @@ installed/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# ユーザーごとの設定を除外
+*.vcxproj.user
+
+# Baseフォルダを除外
+Base/
