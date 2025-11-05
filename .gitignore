@@ -14,6 +14,7 @@ x64/
 x86/
 build/
 out/
+base/
 
 # Intermediate and linker files
 *.obj
@@ -26,6 +27,8 @@ out/
 *.idb
 *.tlog
 *.lastbuildstate
+*.vcxproj
+*.filters
 
 # Visual Studio DBs / caches
 *.VC.db
