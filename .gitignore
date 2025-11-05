@@ -1,0 +1,69 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual C++ Build artifacts
+[Bb]in/
+[Oo]bj/
+Debug*/
+Release*/
+x64/
+x86/
+build/
+out/
+
+# Intermediate and linker files
+*.obj
+*.o
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+
+# Visual Studio DBs / caches
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.opendb
+*.ipch
+*.cache
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# NuGet / packages
+packages/
+*.nupkg
+project.lock.json
+artifacts/
+
+# vcpkg
+vcpkg_installed/
+installed/
+
+# IDE / tooling
+.vscode/
+.idea/
+
+# Temp / backup files
+*~
+*.tmp
+*.bak
+*.log
+*.swp
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
